@@ -37,11 +37,11 @@
             <h1>Is your review positive, or negative?</h1>
             <p>Enter your review below and click submit to find out...</p>
             <form method="POST"
-                  action="**REPLACE WITH PUBLIC API URL**"
-                  onsubmit="return submitForm(this);" >                     <!-- HERE IS WHERE YOU NEED TO ENTER THE API URL -->
+                  action="https://4l8es8tzj4.execute-api.us-east-1.amazonaws.com/production"
+                  onsubmit="return submitForm(this);" >                     
                 <div class="form-group">
                     <label for="review">Review:</label>
-                    <textarea class="form-control"  rows="5" id="review">Please write your review here.</textarea>
+                    <textarea class="form-control" placeholder="Please write your review here." rows="5" id="review"></textarea>
                 </div>
                 <button type="submit" class="btn btn-default">Submit</button>
             </form>
